@@ -1,0 +1,32 @@
+[ui]
+username = Davide Angelocola <davide.angelocola@gmail.com>
+merge = internal:merge
+
+[auth]
+bitbucket.schemes = https
+bitbucket.prefix = bitbucket.org/dfa
+bitbucket.username = dfa
+
+[alias]
+ci = commit -v
+integration = update integration
+release = update release
+latest = log --limit 3
+
+[extensions] 
+color = 
+pager =
+purge = 
+fetch = 
+share =
+convert =
+
+[pager]
+pager = LESS='FSRX' less
+
+[color]
+status.modified = magenta bold
+status.added = green bold
+status.removed = red bold
+status.deleted = cyan bold
+status.unknown = blue bold
