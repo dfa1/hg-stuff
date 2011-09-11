@@ -2,9 +2,12 @@
 username = Davide Angelocola <davide.angelocola@gmail.com>
 merge = internal:merge
 
+[web]
+cacerts = /etc/ssl/certs/ca-certificates.crt
+
 [auth]
 bitbucket.schemes = https
-bitbucket.prefix = bitbucket.org/dfa
+bitbucket.prefix = bitbucket.org
 bitbucket.username = dfa
 
 [alias]
