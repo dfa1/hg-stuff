@@ -1,6 +1,9 @@
 hgrc -- my default mercurial setup
 ps1  -- a very helpful prompt for GNU bash
 
+NB: 
+$ easy_install mercurial_keyring
+
 
 TODO
 ====
