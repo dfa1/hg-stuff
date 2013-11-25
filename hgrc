@@ -20,11 +20,11 @@ integration = update integration
 release = update release
 latest = log --limit 3
 
-[extensions] 
-color = 
+[extensions]
+color =
 pager =
-purge = 
-fetch = 
+purge =
+fetch =
 share =
 convert =
 
