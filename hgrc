@@ -1,6 +1,10 @@
 [ui]
 username = Davide Angelocola <davide.angelocola@gmail.com>
-merge = internal:merge
+merge = vimdiff
+
+[merge-tools]
+vimdiff.executable = vim
+vimdiff.args = -d $base $local $output $other -c "wincmd J"
 
 [web]
 cacerts = /etc/ssl/certs/ca-certificates.crt
